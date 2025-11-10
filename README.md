@@ -3,25 +3,40 @@
 👨‍🏫 Note for Teacher 
 
 This project uses MongoDB Atlas (Cloud) for database storage.
+
 The .env file is already included for easy local testing.
+
 The database is accessible to all IPs (0.0.0.0/0),
+
 so you can run the project directly without any extra configuration.
 
+
 🧩 Steps to Run
+
 1️⃣ Start Backend
+
 cd backend
+
 npm install
+
 node server.js
+
 
 You should see:
 
 Server running on port 5000
+
 MongoDB Connected: ac-hsak9nv-shard-00-00.yylv83r.mongodb.net
 
+
 2️⃣ Start Frontend
+
 cd ../frontend
+
 npm install
+
 npm run dev
+
 
 Then open the link shown (like http://localhost:5173/) in a browser.
 
