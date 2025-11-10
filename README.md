@@ -2,7 +2,7 @@
 
 👨‍🏫 Note for Teacher 
 
-This project uses MongoDB Atlas (Cloud) for database storage.
+This project uses MongoDB Atlas for database storage.
 
 The .env file is already included for easy local testing.
 
@@ -19,7 +19,7 @@ cd backend
 
 npm install
 
-node server.js
+npm run dev
 
 
 You should see:
